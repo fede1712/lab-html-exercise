@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav{
+    width: 600px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart{
+    width: 20px;
+    margin-right: 1rem;
+}
+
+#myInput{
+    background-image: url(images/magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    background-color: rgba(0,0,0,.05);
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 12px 12px 40px;
+    border: none;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.npmLogo{
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.search{
+    display: flex;
+}
+
+.search >button{
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+    height: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.join{
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+
+.logIn{
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+#build {
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+    text-align: center;
+}
+
+#build > h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#build > article{
+    text-align:center;
+    margin-bottom: 60px;
+}
+.plans, .forFree{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans{
+    background-size:auto;
+    background-color: #FB3B49;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 12px;
+    color: white;
+    margin-left: 0;
+    
+}
+.forFree{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 12px;
+    background-size:auto;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    margin-left: 0;
+}
+
+#description{
+    text-align: center;
+    margin: 200px;
+}
+
+#description > h2{
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg, 0deg);
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    font-style: italic;
+}
+#description > img{
+    width: 250px;
+    height: 250px;
+}
+
+#foot > div > img{
+    width: 30px;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+}
+
+.container > h3{
+    color: #ED1C24;
+}
+
+.org{
+    background-size: auto;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding: 12px;
+    color: white;
+}
+
+.create{
+    margin-top: 40px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
